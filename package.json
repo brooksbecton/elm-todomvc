@@ -1,0 +1,24 @@
+{
+  "name": "elm-todomvc",
+  "version": "1.0.0",
+  "description": "All of the Elm code lives in `src/Main.elm` and relies on the [elm/html][html] library.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "elm make src/Main.elm --output elm.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brooksbecton/elm-todomvc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brooksbecton/elm-todomvc/issues"
+  },
+  "homepage": "https://github.com/brooksbecton/elm-todomvc#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3"
+  }
+}
